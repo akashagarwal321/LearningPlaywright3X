@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Workflow"
+  short_description: "Apply safe, consistent Git collaboration practices."
+  default_prompt: "Use $git-workflow to prepare and safely commit my changes."
