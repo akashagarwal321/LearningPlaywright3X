@@ -15,7 +15,6 @@ A learning repository for JavaScript fundamentals, Playwright automation foundat
 
 ## Repository Structure
 
-```text
 LEARNPLAYWRIGHT3X/
 |-- chapter_00_Prompt_Engineering/   Prompt engineering learning material
 |-- chapter_01_Javascript Concepts/  JavaScript fundamentals and practice
@@ -37,6 +36,15 @@ LEARNPLAYWRIGHT3X/
 This chapter contains notes and exercises for writing structured prompts for development and test-automation tasks.
 
 The material is intended to support clearer communication with coding assistants and more repeatable automation workflows.
+
+---
+
+## Changelog
+
+### Latest commit (2026‑07‑19)
+* Updated all references from `skills/` to `00_Skills/` in the repository README.
+* Adjusted directory tree and skill table links accordingly.
+* No other files were modified.
 
 ### 01 - JavaScript Concepts
 
