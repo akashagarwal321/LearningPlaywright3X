@@ -19,7 +19,7 @@ A learning repository for JavaScript fundamentals, Playwright automation foundat
 LEARNPLAYWRIGHT3X/
 |-- chapter_00_Prompt_Engineering/   Prompt engineering learning material
 |-- chapter_01_Javascript Concepts/  JavaScript fundamentals and practice
-|-- skills/                          Shared skills for coding assistants
+|-- 00_Skills/                       Shared skills for coding assistants
 |   |-- git-workflow/
 |   |   `-- SKILL.md
 |   `-- readme-generator/
@@ -48,12 +48,12 @@ The focus is on building the core language confidence needed for browser automat
 
 ## Shared Skills
 
-Repository-wide skills live under `skills/` so they can be reused by different coding assistants and development tools.
+Repository-wide skills live under `00_Skills/` so they can be reused by different coding assistants and development tools.
 
 Each skill uses a lowercase kebab-case directory and a `SKILL.md` entrypoint:
 
 ```text
-skills/
+00_Skills/
 `-- skill-name/
     `-- SKILL.md
 ```
@@ -62,7 +62,7 @@ Current skills:
 
 | Skill | Purpose |
 |-------|---------|
-| [`git-workflow`](skills/git-workflow/SKILL.md) | Safe, platform-neutral Git collaboration practices |
-| [`readme-generator`](skills/readme-generator/SKILL.md) | Create and maintain structured repository READMEs |
+| [`git-workflow`](00_Skills/git-workflow/SKILL.md) | Safe, platform-neutral Git collaboration practices |
+| [`readme-generator`](00_Skills/readme-generator/SKILL.md) | Create and maintain structured repository READMEs |
 
 Detailed workflows and examples belong inside the relevant chapter folders or skill folders. This README stays as the main index and orientation guide for the repository.
