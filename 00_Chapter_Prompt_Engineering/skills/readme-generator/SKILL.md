@@ -1,4 +1,4 @@
----
+﻿---
 name: readme-generator
 description: Create and update structured repository README.md files using the project's real contents and the supplied README reference style. Use when generating a new README, restructuring an existing README, adding a table of contents, documenting repository chapters or modules, adding topic explanations with examples and Q&A, or keeping README indexes and links current.
 ---
@@ -61,7 +61,7 @@ Use tables for compact comparisons. Use Mermaid diagrams only when a flow or rel
 5. Keep examples and descriptions synchronized with the actual files.
 6. Re-read the result for heading order, code fences, tables, and link accuracy.
 
-When adding a shared skill, add its path and one-line purpose to the README index. Keep repository skills under `skills/<lowercase-kebab-case-name>/SKILL.md` unless the repository defines another convention.
+When adding a shared skill, add its path and one-line purpose to the README index. Keep repository skills under `00_Chapter_Skills/<lowercase-kebab-case-name>/SKILL.md`.
 
 ## Quality and Git safety
 
@@ -71,3 +71,4 @@ When adding a shared skill, add its path and one-line purpose to the README inde
 - Keep code examples short and consistent with the repository's language.
 - Avoid credentials, generated noise, machine-specific paths, and unsupported assistant-specific claims.
 - Do not commit or push README changes unless the user explicitly requests those Git operations.
+

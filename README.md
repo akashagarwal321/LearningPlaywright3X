@@ -1,76 +1,30 @@
-# LearnPlaywright3x - JavaScript Fundamentals & Automation Learning Repo
+﻿# LearnPlaywright3x
 
-A learning repository for JavaScript fundamentals, Playwright automation foundations, prompt engineering, and reusable coding-assistant skills.
+JavaScript fundamentals, Playwright foundations, prompt engineering, and reusable coding-assistant skills.
 
----
-
-## Table of Contents
-
-- [Repository Structure](#repository-structure)
-- [00 - Prompt Engineering](#00---prompt-engineering)
-- [01 - JavaScript Concepts](#01---javascript-concepts)
-- [Shared Skills](#shared-skills)
-
----
-
-## Repository Structure
-
-LEARNPLAYWRIGHT3X/
-|-- chapter_00_Prompt_Engineering/   Prompt engineering learning material
-|-- chapter_01_Javascript Concepts/  JavaScript fundamentals and practice
-|-- 00_Skills/                       Shared skills for coding assistants
-|   |-- git-workflow/
-|   |   `-- SKILL.md
-|   `-- readme-generator/
-|       |-- SKILL.md
-|       `-- examples/
-|           `-- README-reference.md
-|-- .gitignore
-`-- README.md
-```
-
----
-
-### 00 - Prompt Engineering
-
-This chapter contains notes and exercises for writing structured prompts for development and test-automation tasks.
-
-The material is intended to support clearer communication with coding assistants and more repeatable automation workflows.
-
----
-
-## Changelog
-
-### Latest commit (2026‑07‑19)
-* Updated all references from `skills/` to `00_Skills/` in the repository README.
-* Adjusted directory tree and skill table links accordingly.
-* No other files were modified.
-
-### 01 - JavaScript Concepts
-
-This chapter contains JavaScript fundamentals and practice material that support later Playwright automation work.
-
-The focus is on building the core language confidence needed for browser automation, test scripting, debugging, and interview-style JavaScript problem solving.
-
----
-
-## Shared Skills
-
-Repository-wide skills live under `00_Skills/` so they can be reused by different coding assistants and development tools.
-
-Each skill uses a lowercase kebab-case directory and a `SKILL.md` entrypoint:
+## Repository structure
 
 ```text
-00_Skills/
-`-- skill-name/
-    `-- SKILL.md
+00_Chapter_Prompt_Engineering/
+00_Chapter_Skills/
+├── git-workflow/SKILL.md
+└── readme-generator/
+    ├── SKILL.md
+    └── examples/README-reference.md
+01_Chapter_JavaScript_Basics/
+├── 01_Hello_World.js
+├── 02_Comments.js
+└── 03_Declaring_Variables.js
+02_Chapter_Identifiers/
+├── 04_Identifier_Rules.js
+└── 05_Identifier_NamingConventions.js
+03_Chapter_Datatypes/
+└── 06_Datatypes.js
 ```
 
-Current skills:
+Chapter folders use the `NN_Chapter_Description` convention. JavaScript files use a two-digit lesson number, an underscore-separated name, and the `.js` extension. Shared skills use lowercase kebab-case directories with a `SKILL.md` entrypoint.
 
-| Skill | Purpose |
-|-------|---------|
-| [`git-workflow`](00_Skills/git-workflow/SKILL.md) | Safe, platform-neutral Git collaboration practices |
-| [`readme-generator`](00_Skills/readme-generator/SKILL.md) | Create and maintain structured repository READMEs |
+## Shared skills
 
-Detailed workflows and examples belong inside the relevant chapter folders or skill folders. This README stays as the main index and orientation guide for the repository.
+- [`git-workflow`](00_Chapter_Skills/git-workflow/SKILL.md) — Git collaboration practices
+- [`readme-generator`](00_Chapter_Skills/readme-generator/SKILL.md) — Structured README maintenance
