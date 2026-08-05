@@ -24,26 +24,15 @@ console.log("1" == true); // true because "1" is converted to 1 while doing loos
 
 console.log("true" == true); //false because "true" cannot be coverted to boolean
 
+console.log(false == 0); // true
+console.log(false === 0); //false
+
 //Loose and Strict Not equal to
 sep("Loose and Strict Not Equal")
 
 
 console.log("10" != 10); // false because "10" is equal to 10 in loose comparison
 console.log("10" !== 10); // true
-
-console.log(false == 0); // true
-console.log(false === 0); //false
-
-
-
-
-
-
-
-
-
-
-
 
 
 //creating a reusable function for printing separator with message
