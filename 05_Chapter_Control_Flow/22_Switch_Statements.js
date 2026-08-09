@@ -55,6 +55,8 @@ switch (day) {
 
 //switcg with conditions
 
+
+//`**switch (true)**`  — idiom for range/boolean checks (each `case`  becomes a condition).
 let testScore = 85;
 switch (true) {
     case (testScore >= 95):
