@@ -24,9 +24,9 @@ console.log(`Hello, How are you - ${name}, ????`);
 
 
 
-let empName = "Akash Agarwal";
-let companyName = 'Birlasoft';
-let location = `Pune`;
+let empName = "Akash Agarwal"; //double quotes
+let companyName = 'Birlasoft'; //single quotes
+let location = `Pune`; //template literals using back ticks
 
 console.log("My Name is "+empName+". I work at "+companyName+". My base location is "+location+"."); // very clumsy
 
@@ -51,8 +51,9 @@ console.log("***********"+"This is a separator"+"************");
 console.log("Template Literals can handle Multilines better");
 
 console.log("Hello, this is in first line\nand this is in second line");
+console.log('Hello, this is in first line\nand this is in second line');
 
-console.log(`This is first line
+console.log(`Hello, this is in first line
 and this is in second line`);
 
 
