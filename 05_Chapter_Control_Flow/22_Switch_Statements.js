@@ -52,3 +52,35 @@ switch (day) {
     default:
         console.log("Invalid Day");
 }
+
+//switcg with conditions
+
+let testScore = 85;
+switch (true) {
+    case (testScore >= 95):
+        console.log("Outstanding — Top performer");
+        break;
+    case (testScore >= 85):
+        console.log("Excellent — Above expectations");
+        break;
+    case (testScore >= 70):
+        console.log("Good — Meets expectations");
+        break;
+    case (testScore >= 50):
+        console.log("Needs Improvement");
+        break;
+    default:
+        console.log("Unsatisfactory — Requires training");
+}
+
+/// switch is strict macthed
+let status = 0;
+console.log(typeof status)
+switch (status) {
+    case false:
+        console.log("false matched");
+        break;
+    case 0:
+        console.log("0 matched");
+        break;
+}
