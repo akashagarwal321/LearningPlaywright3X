@@ -17,3 +17,6 @@ console.log(numbers); // sort
 //thus,
 numbers.sort((a,b)=>b-a);
 console.log(numbers); //reverse sorting for numbers
+
+numbers.reverse();
+console.log(numbers); 

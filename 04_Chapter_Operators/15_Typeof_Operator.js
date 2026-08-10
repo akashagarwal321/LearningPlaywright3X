@@ -20,3 +20,4 @@ let func = (name)=>{console.log(name);};
 console.log(typeof func);
 console.log(typeof function(){});
 
+
