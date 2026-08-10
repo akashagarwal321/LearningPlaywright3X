@@ -62,3 +62,16 @@ console.log(arr1); // shows original value - not updated even in nested --- this
 
 
 
+//
+console.log("***********");
+const orig = [[1, 2], [3, 4]];
+
+const shallow = [...orig];
+const deep = structuredClone(orig);
+
+shallow[0][0] = 99;
+deep[1][0] = 88;
+
+console.log(orig);
+console.log(shallow);
+console.log(deep);
