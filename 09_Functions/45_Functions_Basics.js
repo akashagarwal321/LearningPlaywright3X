@@ -93,23 +93,3 @@ function getTotal(numbers) {
 const result2 = getTotal([10, 20, 30, 40]);
 
 console.log(result2);
-
-function introduce(name, age) {
-    console.log(name);
-    console.log(age);
-}
-
-introduce("Akash"); // if we are passing one argument only -- no error
-
-function add(a, b) {
-    return a + b; // 
-}
-
-console.log(add(10)); // ---> a=10 and b=undefined ---> a+b is also undefined
-
-//Extra Arguments
-function greet(name) {
-    console.log(name);
-}
-
-greet("Akash", 34, "Pune"); // no error... extra arguments are removed
