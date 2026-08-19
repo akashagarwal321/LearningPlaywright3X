@@ -52,3 +52,5 @@ console.log("*".repeat(60));
 console.log(Object.values(testResults).filter((value)=>value==="PASS").length);
 
 Object.entries(testResults).forEach(([key,value])=>{console.log(`${key} -> ${value}`)});
+
+
