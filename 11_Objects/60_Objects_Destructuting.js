@@ -82,3 +82,19 @@ function printTestNew({name,status}){
 
 printTestNew(testCase_3);
 printTestNew({name:"Hello TEst",status:"This will run"});
+
+
+
+//
+const test_json = {
+    "name": "Akash",
+    "age": "34",
+    3 : "test"
+}
+
+console.log(test_json)
+//console.log(test_json.3) // cannot work
+console.log(test_json[3])
+console.log(test_json["3"]);
+
+
