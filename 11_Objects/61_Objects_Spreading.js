@@ -50,3 +50,10 @@ deep_copy.address.city = "Jaipur";
 
 console.log(deep_copy.address.city);
 console.log(user.address.city);   // Still Mumbai
+
+
+//Adding new properties while copying with spread
+
+const new_user = {...user, description:"This is new Description"};
+
+console.log(new_user);
