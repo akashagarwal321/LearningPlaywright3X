@@ -41,11 +41,11 @@ Promise.resolve(5)
 
 Promise.resolve(5)
 .then((result) => {
-    result + 10;
-})
+    result + 10;  //Notice that... we are not doing any return here
+}) 
 .then((result) => {
     console.log(result);
-});
+}); //undefined is the ouput
 
 
 Promise.resolve(10)
