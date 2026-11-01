@@ -22,10 +22,16 @@ export function convert_to_capital(sname){
 
 export class test_class{
    
+   name = "Akash"
+
+
    constructor(){
         let xx = "42";
         const tt = "aada";
-}
+    
+    }
+
+
     test_inclass(text) {     
         console.log("print the text", text)
     }
