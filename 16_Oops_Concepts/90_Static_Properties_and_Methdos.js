@@ -111,3 +111,19 @@ class MathUtility {
 
 console.log(MathUtility.add(10, 20));      // 30
 console.log(MathUtility.multiply(5, 4));   // 20
+
+
+
+// Another example -- for automation
+
+class TestConfig{
+
+    static baseUrl = "https://www.google.com";
+    static getTimeout(){
+        return 3000;
+    }
+
+}
+
+console.log(TestConfig.baseUrl);
+console.log(TestConfig.getTimeout());
