@@ -1,0 +1,11 @@
+// 1. What are Node.js built-in modules?
+// Node.js provides several modules out of the box. You don't need to install them using npm.
+
+// Think of them as ready-made utilities.
+// Module ----	Purpose	SDET / Playwright relevance
+// fs --------	File system operations	Read test data, save reports
+// path	------  File and directory paths	Manage framework paths
+// os --------	Operating system information	Environment-specific execution
+// process ---	Current Node process information	Environment variables, CLI arguments
+
+// Let's understand them individually.

@@ -29,4 +29,4 @@ class Payment {
 
 const payment = new Payment();
 
-payment.processPayment(5000); //this is abstraction - hide what is not needed only expose what is needed
+payment.processPayment(5000); //this is abstraction - hide what is not needed only expose what is needed 
