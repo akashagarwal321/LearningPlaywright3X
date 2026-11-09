@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^18.0.10"
+  },
+  "name": "17.3_env_variables_and_configuration_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "105_Env_Variables.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

@@ -1,0 +1,20 @@
+automation-project/
+│
+├── src/
+│   ├── utils/
+│   │   └── fileHelper.js
+│   │
+│   ├── config/
+│   │   └── environment.js
+│   │
+│   └── app.js
+│
+├── testdata/
+│   └── users.json
+│
+├── reports/
+│
+├── .env
+├── .gitignore
+├── package.json
+└── package-lock.json
