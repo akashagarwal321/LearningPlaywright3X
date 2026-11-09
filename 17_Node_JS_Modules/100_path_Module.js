@@ -11,4 +11,4 @@ console.log(file_path)
 console.log(path.basename(file_path));
 console.log(path.dirname(file_path))
 console.log(path.extname(file_path))
-console.log(path.resolve(file_path)) //gives full path
+console.log(path.resolve()) //gives full path
