@@ -168,3 +168,40 @@
 // - Header and Navigation are composed into pages.
 // - PageValidator defines a shared contract.
 // This is the type of architecture we'll implement later.
+
+
+
+
+//Practice
+
+interface PageValidatorPrac{
+    validatePage():Promise<boolean>;
+}
+
+abstract class BasePagePrac implements PageValidatorPrac{
+    constructor(protected pageName:string){}
+
+    abstract validatePage(): Promise<boolean>;
+}
+
+class LoginPagePrac extends BasePagePrac{
+    async validatePage(): Promise<boolean> {
+        return true;
+    }
+}
+
+class Header{
+    search():void{
+        console.log("search from header")
+    }
+}
+
+class HomePage{
+    constructor(private header:Header){
+        
+    }
+
+    search_header():void{
+        this.header.search();
+    }
+}
