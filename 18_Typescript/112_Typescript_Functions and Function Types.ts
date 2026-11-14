@@ -1,9 +1,5 @@
 
-//JS functions ---
-
-import { log } from "node:console";
-import { PassThrough } from "node:stream";
-
+//JS functions 
 // function login(username,password){
 //     console.log(`Logging in ${username}`)
 // }
@@ -187,3 +183,8 @@ const test_result = async function (testID:number):Promise<"Passed"|"Failed">{
 function callbackfunction(testname:string,testcallbackfunction:(status:string)=>void){
     testcallbackfunction("Completed")
 }
+
+
+
+export { };
+
