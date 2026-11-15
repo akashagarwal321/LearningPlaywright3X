@@ -57,7 +57,7 @@ interface ApiResponse<X>{       //we can write anything not necessary <T>
 
 //let's now define our data structures
 
-interface User {
+interface UserIA {
     username: string;
     role: string;
 }
@@ -69,7 +69,7 @@ interface Product {
 
 //For user
 
-const userResponse:ApiResponse<User> = {
+const userResponse:ApiResponse<UserIA> = {
     status:200,
     message:"success",
     data:{
@@ -145,7 +145,7 @@ class DataStore<T>{
 }
 
 //Now
-const userStore = new DataStore<User>({
+const userStore = new DataStore<UserIA>({
     username: "akash",
     role: "admin"
 });
