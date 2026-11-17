@@ -186,7 +186,7 @@ interface TestConfigX{
 }
 
 type BrowserName = TestConfigX["browser"]
-type ConfigKeys = keyof TestConfig
+//type ConfigKeys = keyof TestConfig
 
 const useTestConfig:TestConfigX={
     browser:"webkit",
